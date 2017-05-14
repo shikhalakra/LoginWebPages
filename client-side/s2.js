@@ -1,7 +1,7 @@
 function validate()
 {  
-var name=document.f1.name.value;  
-var passwordlength=document.f1.password.value.length;  
+var name=document.form.username.value;  
+var passwordlength=document.form.password.value.length;  
 var status=false;  
 if(name==""){  
 document.getElementById("namelocation").innerHTML= "Please enter your name";  
